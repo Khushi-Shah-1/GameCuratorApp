@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+.container-fluid
+{
+    font-family: 'Roboto Slab', serif;
+    font-size:      20px;
+    font-weight:    500;
+}
+.home-body {
+    background-color: #212529;
+    background-image: url(images/background_tile.png);
+}
+
+.about-us {
+    color: rgba(255, 255, 255, .3);
+    text-align: center;
+    padding-left: 4em;
+}
+
+.about-us-page {
+    background-image: url(images/background_tile.png);
+}
+
+.footer-home {
+    background-color: #212529;
+    padding: 1.5em;
+    margin-top: 2em;
+}
+
+.game_image {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.card, .list-group-item {
+    background-color: #212529;
+    color: aliceblue;
+}
+
+.rating {
+    margin-left: 2%; 
+}
+
+.card {
+    margin: 3em;
+    display: inline-block;
+}
+
+.list-group-item img{
+    width: 100px;
+}
+.card-title {
+    font-family: 'Bree Serif', serif;
+}
+.game-container {
+    margin: auto;
+}
+.nav-list {
+    width: auto;
+    margin: auto;
+}
+.dropdown-menu {
+    background-color: #292929;
+}
+.dropdown-item{
+    color: aliceblue;
+}
+.dropdown-item:hover {
+    background-color: #4d4d4d;
+    color: aliceblue;
+}
+
+.IGN {
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-left: 10%; 
+}
+
+.add-to-cart {
+    margin-top: 1em;
+}
